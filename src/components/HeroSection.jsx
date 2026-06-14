@@ -26,18 +26,13 @@ const HeroSection = () => {
       />
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center mt-12 md:mt-16">
-        <p className="text-sm md:text-base font-medium text-[#8F1010] tracking-wide mb-4">
-          MEET ROSE.
-        </p>
-
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-gray-900 leading-tight mb-5">
-          The Bible you can talk to.
+          Meet Rose.
         </h1>
 
         <p className="mx-auto mb-8 max-w-3xl text-base leading-7 text-gray-600 md:text-lg md:leading-8">
-          Rose is the first AI agent that helps you understand the Bible through
-          conversation, whether you are blind, cannot read, or simply have
-          little time.
+          The first AI agent that helps you understand the Bible through
+          conversation.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
