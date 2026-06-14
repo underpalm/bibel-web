@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pricing - Rose</title>
+    <meta
+      name="description"
+      content="Pricing for Rose, an AI Bible app for iOS and Android."
+    >
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="pricing-page">
+    <a class="skip-link" href="#pricing-main">Skip to content</a>
+
+    <header class="site-header simple-page-header pricing-page-header">
+      <div class="header-shell">
+        <span aria-hidden="true"></span>
+        <a class="brand" href="index.html" aria-label="Rose home">Rose</a>
+        <div class="header-actions">
+          <a class="pill header-pill" href="index.html">Close</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="pricing-main">
+      <section class="pricing pricing-standalone" id="pricing" aria-labelledby="pricing-title">
+        <div class="pricing-header">
+          <h1 id="pricing-title">Pricing</h1>
+          <p>
+            Join the waitlist to start with 14 days of Rose Pro when the iOS and Android apps
+            launch. No credit card required.
+          </p>
+          <div class="billing-toggle" aria-label="Billing cycle">
+            <button type="button" data-billing-option="monthly" aria-pressed="false">Monthly</button>
+            <button class="is-active" type="button" data-billing-option="annual" aria-pressed="true">
+              Annual
+              <span>20% discount</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card">
+            <p class="plan-audience">For individuals</p>
+            <h2>Rose Basic</h2>
+            <p class="plan-price">Free</p>
+            <p class="plan-summary">The start of a Bible study rhythm you can keep.</p>
+            <ul>
+              <li>25 Bible questions per week on iOS or Android</li>
+              <li>Voice and text conversations</li>
+              <li>Verse cards with short context</li>
+              <li>Saved conversations and passages</li>
+              <li>Private study history</li>
+            </ul>
+            <a class="pill outline" href="index.html#waitlist">Join Waitlist</a>
+          </article>
+
+          <article class="pricing-card is-featured">
+            <p class="plan-audience">For deeper study</p>
+            <h2>Rose Pro</h2>
+            <p class="plan-price">
+              <span data-price-monthly="EUR 12/mo" data-price-annual="EUR 9.60/mo">EUR 9.60/mo</span>
+              <small data-price-note> billed annually</small>
+            </p>
+            <p class="plan-summary">Everything in Basic, plus more space to ask, listen, and learn.</p>
+            <ul>
+              <li>Unlimited Bible conversations on iOS and Android</li>
+              <li>Deeper context, cross-references, and summaries</li>
+              <li>Longer voice sessions</li>
+              <li>Unlimited saved notes and conversations</li>
+              <li>Early access to new study features</li>
+              <li>Priority support</li>
+            </ul>
+            <a class="pill dark" href="index.html#waitlist">Get Started</a>
+          </article>
+        </div>
+
+        <div class="student-discount">
+          <strong>Student Discount</strong>
+          <p>Students get three months free and 50% off Rose Pro after launch. New subscribers only.</p>
+          <a href="index.html#waitlist">Join the waitlist</a>
+        </div>
+
+        <div class="feature-table-wrap">
+          <h2>Plans &amp; features</h2>
+          <table class="feature-table">
+            <thead>
+              <tr>
+                <th scope="col">Feature</th>
+                <th scope="col">Basic</th>
+                <th scope="col">Pro</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>iPhone (iOS)</td>
+                <td>Included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Android</td>
+                <td>Included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Voice conversations</td>
+                <td>Included</td>
+                <td>Unlimited</td>
+              </tr>
+              <tr>
+                <td>Weekly Bible questions</td>
+                <td>25/week</td>
+                <td>Unlimited</td>
+              </tr>
+              <tr>
+                <td>Context and cross-references</td>
+                <td>Basic</td>
+                <td>Deeper</td>
+              </tr>
+              <tr>
+                <td>Saved notes and conversations</td>
+                <td>Limited</td>
+                <td>Unlimited</td>
+              </tr>
+              <tr>
+                <td>Early access to new features</td>
+                <td>Not included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Support</td>
+                <td>Standard</td>
+                <td>Priority</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

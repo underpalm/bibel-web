@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rose - Speak with the Bible</title>
+    <meta
+      name="description"
+      content="A calm landing page for Rose, an AI Bible app that lets people speak with Scripture by voice and text."
+    >
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-shell">
+        <button class="menu-link mobile-only" type="button" data-open-drawer="mobile-nav" aria-label="Open menu">
+          Open
+        </button>
+
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a class="menu-link" href="#experience">Experience</a>
+          <a class="menu-link" href="about.html">About</a>
+          <a class="menu-link" href="pricing.html">Pricing</a>
+        </nav>
+
+        <a class="brand" href="#hero" aria-label="Rose home">Rose</a>
+
+        <div class="header-actions">
+          <a class="menu-link desktop-only" href="#how">How it works</a>
+          <a class="menu-link desktop-only" href="#faq">FAQ</a>
+          <a class="pill header-pill" href="#waitlist">Join Waitlist</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="hero" aria-label="Rose hero">
+        <div class="hero-track">
+          <article class="hero-slide">
+            <picture>
+              <source media="(min-width: 900px)" srcset="assets/hero-travel-desktop.png">
+              <img src="assets/hero-travel-mobile.png" alt="Calm travel image background">
+            </picture>
+            <div class="hero-copy">
+              <div>
+                <h1>Speak with<br>the Bible.</h1>
+                <p class="hero-subcopy">
+                  Ask questions with your voice. Receive Scripture passages, context, and a calm
+                  explanation that leads you back to the text.
+                </p>
+              </div>
+              <a class="pill light" href="#waitlist">Early Access</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="intro-band" id="experience" aria-labelledby="experience-title">
+        <div>
+          <h2 id="experience-title">Understanding the Bible isn't always easy.</h2>
+        </div>
+        <p>
+          You have no time to read long chapters.<br>
+          You don't understand a verse &ndash; and have no one to ask.<br>
+          You can't read, or reading is hard for you.<br>
+          Audiobooks leave you with more questions than answers.
+        </p>
+      </section>
+
+      <section class="demo-section" aria-label="AI conversation preview">
+        <div class="phone-preview">
+          <div class="phone-bar">
+            <span></span>
+            <span></span>
+          </div>
+          <div class="voice-cue">
+            <span>Speak with the Bible</span>
+            <div class="voice-wave" aria-hidden="true">
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+          </div>
+          <div class="chat-thread" data-chat-thread>
+            <article class="bubble user">
+              <span>Voice question</span>
+              <p>Rose, what does the Bible say when I feel afraid?</p>
+            </article>
+            <article class="bubble ai">
+              <span>Rose</span>
+              <p>
+                Psalm 23:4 and Isaiah 41:10 speak directly into fear. The Bible takes fear
+                seriously and redirects your attention to God's presence.
+              </p>
+            </article>
+            <article class="verse-card">
+              <strong>Isaiah 41:10</strong>
+              <p>Fear not, for I am with you.</p>
+            </article>
+          </div>
+          <div class="voice-bar">
+            <button class="voice-button" type="button" data-voice-pulse aria-label="Start voice demo"></button>
+            <span class="voice-label">
+              <strong data-voice-label>Tap to speak with Rose</strong>
+              <small>Ask out loud or type instead.</small>
+            </span>
+          </div>
+        </div>
+
+        <div class="demo-copy">
+          <h2>Rose is your personal Bible companion. And she speaks your language.</h2>
+          <p>
+            Ask Rose your question &ndash; by voice or text. Rose finds the right verse and explains
+            it in simple words. You don't need to read. You don't need to study theology. You just
+            need to ask.
+          </p>
+          <div class="prompt-row" aria-label="Demo prompts">
+            <button type="button" data-demo-prompt="fear">Fear</button>
+            <button type="button" data-demo-prompt="forgive">Forgiveness</button>
+            <button type="button" data-demo-prompt="purpose">Calling</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="image-split" id="how" aria-labelledby="how-title">
+        <div class="image-split-copy">
+          <h2 id="how-title">What does Rose include?</h2>
+          <ol class="steps" data-feature-list>
+            <li class="is-active">
+              <button
+                class="feature-step"
+                type="button"
+                data-feature-image="assets/portrait.png"
+                data-feature-alt="Portrait image for Rose voice questions"
+                aria-pressed="true"
+              >
+                <strong>Ask with your voice.</strong>
+                <span>For example: "What does grace mean in Romans?"</span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="feature-step"
+                type="button"
+                data-feature-image="assets/hero-soft-desktop.png"
+                data-feature-alt="Green detail image for Rose clear answers"
+                aria-pressed="false"
+              >
+                <strong>Receive a clear answer.</strong>
+                <span>With verses, context, brief explanation, and source references.</span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="feature-step"
+                type="button"
+                data-feature-image="assets/hero-green-desktop.png"
+                data-feature-alt="Green detail image for deeper Rose study"
+                aria-pressed="false"
+              >
+                <strong>Go deeper.</strong>
+                <span>Save conversations, read the passage, and continue your study.</span>
+              </button>
+            </li>
+          </ol>
+        </div>
+        <img
+          data-feature-image-target
+          src="assets/portrait.png"
+          alt="Portrait image for Rose voice questions"
+        >
+      </section>
+
+      <section class="mission-tabs" id="faq" aria-label="FAQ and app philosophy">
+        <div class="mission-tab-copy">
+          <p>Who Rose is for</p>
+          <p class="mission-subcopy">Rose is for anyone who wants to understand the Bible better.</p>
+        </div>
+        <img src="assets/hero-green-desktop.png" alt="Green detail image for the Rose Bible app landing page">
+      </section>
+
+      <section class="waitlist" id="waitlist" aria-labelledby="waitlist-title">
+        <div>
+          <h2 id="waitlist-title">Try the Bible app when the first version is ready.</h2>
+        </div>
+        <form class="newsletter-form waitlist-form">
+          <label for="email">Email for Early Access</label>
+          <div>
+            <input id="email" type="email" placeholder="Email Address" required>
+            <button class="pill dark" type="submit">Join</button>
+          </div>
+          <small>No distractions. Only updates about the app.</small>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer">
+      <a class="footer-logo" href="#hero" aria-label="Rose home">Rose</a>
+      <nav class="footer-links" aria-label="Social links">
+        <a href="#footer">Instagram</a>
+        <a href="#footer">TikTok</a>
+        <a href="#footer">YouTube</a>
+        <a href="#footer">LinkedIn</a>
+      </nav>
+      <nav class="footer-links footer-legal" aria-label="Legal links">
+        <a href="policy.html">Privacy Policy</a>
+        <a href="imprint.html">Imprint</a>
+      </nav>
+      <p class="footer-copy">&copy; 2026</p>
+    </footer>
+
+    <div class="drawer-backdrop" data-backdrop></div>
+
+    <aside class="drawer left-drawer" id="mobile-nav" aria-hidden="true" aria-label="Mobile navigation">
+      <div class="drawer-header">
+        <strong>Rose</strong>
+        <button class="close-btn" type="button" data-close-drawer aria-label="Close menu">Close</button>
+      </div>
+      <nav class="mobile-nav-list">
+        <a href="#experience" data-close-drawer>Experience</a>
+        <a href="about.html" data-close-drawer>About</a>
+        <a href="pricing.html" data-close-drawer>Pricing</a>
+        <a href="#waitlist" data-close-drawer>Join Waitlist</a>
+      </nav>
+    </aside>
+
+    <script src="script.js"></script>
+  </body>
+</html>
