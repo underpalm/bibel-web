@@ -8,6 +8,7 @@ import PrivacySection from "./components/PrivacySection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import FAQSection from "./components/FAQSection";
 import CTASection from "./components/CTASection";
+import NewsletterSection from "./components/NewsletterSection";
 import Footer from "./components/Footer";
 import CookieConsent from "./components/CookieConsent";
 
@@ -23,6 +24,7 @@ function App() {
         <TestimonialsSection />
         <FAQSection />
         <CTASection />
+        <NewsletterSection />
       </main>
       <Footer />
       <CookieConsent />

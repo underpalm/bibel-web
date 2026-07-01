@@ -173,7 +173,7 @@ export const faqs = [
     id: 5,
     question: "Is Rose really free?",
     answer:
-      "There is a free tier per month. Unlimited access to Rose starts at $9.99/month or $99/year. For churches or communities, we have group plans.",
+      "There is a free tier per month. Unlimited access to Rose starts at €7,99/month. For churches or communities, we have group plans.",
   },
 ];
 

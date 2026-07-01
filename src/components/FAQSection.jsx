@@ -9,7 +9,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section id="contact" className="py-20 md:py-32 bg-[#F5F9FB]">
+    <section id="contact" className="py-20 md:py-32 bg-[#FFFDF9]">
       <div className="max-w-[800px] mx-auto px-6 md:px-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-serif text-gray-900">
@@ -51,7 +51,7 @@ const FAQSection = () => {
             you.{" "}
             <a
               href="mailto:contact@galenai.com"
-              className="text-[#0F172A] hover:underline font-medium"
+              className="text-[#33302A] hover:underline font-medium"
             >
               Contact us
             </a>

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,16..72,400;0,16..72,500;0,16..72,600;1,16..72,400;1,16..72,500&family=Inter:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -15,8 +15,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ffffff;
-  color: #1a1a1a;
+  background-color: #f7f2ea;
+  color: #33302a;
 }
 
 section[id] {
@@ -24,29 +24,26 @@ section[id] {
 }
 
 .font-serif {
-  font-family: "Cardo", Georgia, "Times New Roman", serif;
-  font-weight: 400;
+  font-family: "Newsreader", Georgia, "Times New Roman", serif;
+  font-weight: 600;
   line-height: 1.05;
-  letter-spacing: 0;
-  font-stretch: condensed;
-  transform: scaleX(0.95);
-  transform-origin: center;
+  letter-spacing: -0.02em;
 }
 
 .cardo-regular {
-  font-family: "Cardo", serif;
+  font-family: "Newsreader", serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .cardo-bold {
-  font-family: "Cardo", serif;
-  font-weight: 700;
+  font-family: "Newsreader", serif;
+  font-weight: 600;
   font-style: normal;
 }
 
 .cardo-regular-italic {
-  font-family: "Cardo", serif;
+  font-family: "Newsreader", serif;
   font-weight: 400;
   font-style: italic;
 }
@@ -98,7 +95,7 @@ a {
 }
 
 ::selection {
-  background-color: rgba(15, 23, 42, 0.18);
+  background-color: rgba(192, 112, 94, 0.22);
   color: inherit;
 }
 

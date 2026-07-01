@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,16..72,400;0,16..72,500;0,16..72,600;1,16..72,400;1,16..72,500&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}html,body{margin:0;padding:0}
+  @keyframes lpring{0%{transform:scale(.62);opacity:.6}100%{transform:scale(2.1);opacity:0}}
+  @keyframes lpwave{0%,100%{transform:scaleY(.28)}50%{transform:scaleY(1)}}
+  @keyframes lpfloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+  @keyframes lppulse{0%,100%{opacity:.5}50%{opacity:1}}
+  .lpscroll::-webkit-scrollbar{width:8px}.lpscroll::-webkit-scrollbar-thumb{background:#d9cfbf;border-radius:8px}
+</style>
+</helmet>
+
+<div style="min-height:100vh;background:#ece5da;font-family:Inter,system-ui,sans-serif;color:#33302a;padding:54px 40px 100px;display:flex;flex-direction:column;align-items:center;gap:14px">
+
+  <div style="width:100%;max-width:1320px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px">
+    <div style="width:54px;height:54px;border-radius:17px;background:#c0705e;display:flex;align-items:center;justify-content:center;font-family:Newsreader,serif;font-size:30px;font-weight:600;color:#fff;padding-bottom:3px;box-shadow:0 12px 26px -8px rgba(192,112,94,0.55)">R</div>
+    <h1 style="margin:4px 0 0;font-family:Newsreader,serif;font-size:46px;font-weight:600;letter-spacing:-0.02em;line-height:1">Rose — alle Bildschirme</h1>
+    <div style="font-size:14.5px;color:#8c8475;letter-spacing:-0.01em;max-width:540px;line-height:1.5">Bibel-App zum Lesen, Fragen & Sprechen. Guideline, kompletter Flow, App-Tabs auf iPhone & Android und die Landingpage.</div>
+  </div>
+
+  <!-- ===== GUIDELINE ===== -->
+  <div style="width:100%;max-width:1320px;margin-top:30px;display:flex;flex-wrap:wrap;gap:18px;background:#fffdf9;border:1px solid #e6dccd;border-radius:24px;padding:30px 32px">
+    <div style="flex:1;min-width:260px">
+      <div style="font-size:11px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#c0705e">Guideline · Farben</div>
+      <div style="display:flex;flex-direction:column;gap:0;margin-top:14px">
+        <div style="display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid #f1e9dd"><span style="width:30px;height:30px;border-radius:8px;background:#f7f2ea;border:1px solid #e2d8c9"></span><span style="font-size:13px;font-weight:500">Pergament</span><span style="font-family:ui-monospace,monospace;font-size:12px;color:#a89e8e;margin-left:auto">#F7F2EA</span></div>
+        <div style="display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid #f1e9dd"><span style="width:30px;height:30px;border-radius:8px;background:#33302a"></span><span style="font-size:13px;font-weight:500">Tinte</span><span style="font-family:ui-monospace,monospace;font-size:12px;color:#a89e8e;margin-left:auto">#33302A</span></div>
+        <div style="display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid #f1e9dd"><span style="width:30px;height:30px;border-radius:8px;background:#c0705e"></span><span style="font-size:13px;font-weight:500">Rosé · Akzent</span><span style="font-family:ui-monospace,monospace;font-size:12px;color:#a89e8e;margin-left:auto">#C0705E</span></div>
+        <div style="display:flex;align-items:center;gap:12px;padding:9px 0"><span style="width:30px;height:30px;border-radius:8px;background:#8c8475"></span><span style="font-size:13px;font-weight:500">Gedämpft</span><span style="font-family:ui-monospace,monospace;font-size:12px;color:#a89e8e;margin-left:auto">#8C8475</span></div>
+      </div>
+    </div>
+    <div style="flex:1;min-width:260px;border-left:1px solid #efe5d7;padding-left:24px">
+      <div style="font-size:11px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#c0705e">Guideline · Schrift</div>
+      <div style="font-family:Newsreader,serif;font-size:34px;font-weight:600;letter-spacing:-0.02em;line-height:1.05;margin-top:14px">Newsreader</div>
+      <div style="font-family:Newsreader,serif;font-style:italic;font-size:18px;color:#6b6457;margin-top:4px">Überschriften & Bibelverse</div>
+      <div style="font-size:22px;font-weight:600;letter-spacing:-0.01em;margin-top:16px">Inter</div>
+      <div style="font-size:13.5px;color:#6b6457;margin-top:3px;line-height:1.5">Fließtext, Buttons & UI — ruhig und gut lesbar.</div>
+    </div>
+    <div style="flex:1;min-width:240px;border-left:1px solid #efe5d7;padding-left:24px">
+      <div style="font-size:11px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:#c0705e">Prinzip</div>
+      <div style="display:flex;flex-direction:column;gap:9px;margin-top:14px;font-size:13.5px;line-height:1.5;color:#4a443b">
+        <div>— Warmes Papier, weiche Rundungen, viel Ruhe.</div>
+        <div>— Ein einziger Akzent: sanftes Rosé.</div>
+        <div>— Verse in eleganter Serif-Kursive.</div>
+        <div>— „Don't read. Just speak."</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== FLOW ===== -->
+  <div style="width:100%;max-width:1320px;margin-top:42px;font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#8c8475">Flow · Splash → Onboarding → Anmeldung</div>
+  <div style="display:flex;flex-wrap:wrap;gap:40px;justify-content:center;width:100%;margin-top:6px">
+
+    <div style="display:flex;flex-direction:column;align-items:center;gap:14px">
+      <div style="font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#a89e8e">Splash</div>
+      <div style="width:330px;height:702px;background:#1c1a16;border-radius:48px;padding:5px;box-shadow:0 40px 80px -34px rgba(60,40,30,0.5);position:relative">
+        <div style="width:320px;height:692px;border-radius:43px;overflow:hidden;position:relative;background:#f7f2ea">
+          <dc-import name="RoseApp" platform="ios" start-stage="splash" auto-advance="false" hint-size="100%,100%" style="display:block;width:100%;height:100%"></dc-import>
+          <div style="position:absolute;top:10px;left:50%;transform:translateX(-50%);width:104px;height:30px;background:#0a0907;border-radius:18px;z-index:90;pointer-events:none"></div>
+          <div style="position:absolute;bottom:7px;left:50%;transform:translateX(-50%);width:116px;height:5px;border-radius:100px;background:#33302a;opacity:0.3;z-index:90;pointer-events:none"></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center;gap:14px">
+      <div style="font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#a89e8e">Onboarding · Name</div>
+      <div style="width:330px;height:702px;background:#1c1a16;border-radius:48px;padding:5px;box-shadow:0 40px 80px -34px rgba(60,40,30,0.5);position:relative">
+        <div style="width:320px;height:692px;border-radius:43px;overflow:hidden;position:relative;background:#f7f2ea">
+          <dc-import name="RoseApp" platform="ios" start-stage="onb1" hint-size="100%,100%" style="display:block;width:100%;height:100%"></dc-import>
+          <div style="position:absolute;top:10px;left:50%;transform:translateX(-50%);width:104px;height:30px;background:#0a0907;border-radius:18px;z-index:90;pointer-events:none"></div>
+          <div style="position:absolute;bottom:7px;left:50%;transform:translateX(-50%);width:116px;height:5px;border-radius:100px;background:#33302a;opacity:0.3;z-index:90;pointer-events:none"></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center;gap:14px">
+      <div style="font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#a89e8e">Onboarding · Stimme</div>
+      <div style="width:330px;height:702px;background:#1c1a16;border-radius:48px;padding:5px;box-shadow:0 40px 80px -34px rgba(60,40,30,0.5);position:relative">
+        <div style="width:320px;height:692px;border-radius:43px;overflow:hidden;position:relative;background:#f7f2ea">
+          <dc-import name="RoseApp" platform="ios" start-stage="onb2" hint-size="100%,100%" style="display:block;width:100%;height:100%"></dc-import>
+          <div style="position:absolute;top:10px;left:50%;transform:translateX(-50%);width:104px;height:30px;background:#0a0907;border-radius:18px;z-index:90;pointer-events:none"></div>
+          <div style="position:absolute;bottom:7px;left:50%;transform:translateX(-50%);width:116px;height:5px;border-radius:100px;background:#33302a;opacity:0.3;z-index:90;pointer-events:none"></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center;gap:14px">
+      <div style="font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#a89e8e">Anmeldung</div>
+      <div style="width:330px;height:702px;background:#1c1a16;border-radius:48px;padding:5px;box-shadow:0 40px 80px -34px rgba(60,40,30,0.5);position:relative">
+        <div style="width:320px;height:692px;border-radius:43px;overflow:hidden;position:relative;background:#f7f2ea">
+          <dc-import name="RoseApp" platform="ios" start-stage="welcome" hint-size="100%,100%" style="display:block;width:100%;height:100%"></dc-import>
+          <div style="position:absolute;top:10px;left:50%;transform:translateX(-50%);width:104px;height:30px;background:#0a0907;border-radius:18px;z-index:90;pointer-events:none"></div>
+          <div style="position:absolute;bottom:7px;left:50%;transform:translateX(-50%);width:116px;height:5px;border-radius:100px;background:#33302a;opacity:0.3;z-index:90;pointer-events:none"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ===== APP TABS (iOS) ===== -->
+  <div style="width:100%;max-width:1320px;margin-top:48px;font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#8c8475">App · iPhone</div>
+  <div style="display:flex;flex-wrap:wrap;gap:40px;justify-content:center;width:100%;margin-top:6px">
+
+    <div style="display:flex;flex-direction:column;align-items:center;gap:14px">
+      <div style="font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#a89e8e">Rose · Chat</div>
+      <div style="width:330px;height:702px;background:#1c1a16;border-radius:48px;padding:5px;box-shadow:0 40px 80px -34px rgba(60,40,30,0.5);position:relative">
+        <div style="width:320px;height:692px;border-radius:43px;overflow:hidden;position:relative;background:#f7f2ea">
+          <dc-import name="RoseApp" platform="ios" start-stage="app" initial-tab="rose" hint-size="100%,100%" style="display:block;width:100%;height:100%"></dc-import>
+          <div style="position:absolute;top:10px;left:50%;transform:translateX(-50%);width:104px;height:30px;background:#0a0907;border-radius:18px;z-index:90;pointer-events:none"></div>
+          <div style="position:absolute;bottom:7px;left:50%;transform:translateX(-50%);width:116px;height:5px;border-radius:100px;background:#33302a;opacity:0.3;z-index:90;pointer-events:none"></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center;gap:14px">
+      <div style="font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#a89e8e">Bibel · Reader</div>
+      <div style="width:330px;height:702px;background:#1c1a16;border-radius:48px;padding:5px;box-shadow:0 40px 80px -34px rgba(60,40,30,0.5);position:relative">
+        <div style="width:320px;height:692px;border-radius:43px;overflow:hidden;position:relative;background:#f7f2ea">
+          <dc-import name="RoseApp" platform="ios" start-stage="app" initial-tab="bibel" hint-size="100%,100%" style="display:block;width:100%;height:100%"></dc-import>
+          <div style="position:absolute;top:10px;left:50%;transform:translateX(-50%);width:104px;height:30px;background:#0a0907;border-radius:18px;z-index:90;pointer-events:none"></div>
+          <div style="position:absolute;bottom:7px;left:50%;transform:translateX(-50%);width:116px;height:5px;border-radius:100px;background:#33302a;opacity:0.3;z-index:90;pointer-events:none"></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center;gap:14px">
+      <div style="font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#a89e8e">Treffen · Luma</div>
+      <div style="width:330px;height:702px;background:#1c1a16;border-radius:48px;padding:5px;box-shadow:0 40px 80px -34px rgba(60,40,30,0.5);position:relative">
+        <div style="width:320px;height:692px;border-radius:43px;overflow:hidden;position:relative;background:#f7f2ea">
+          <dc-import name="RoseApp" platform="ios" start-stage="app" initial-tab="events" hint-size="100%,100%" style="display:block;width:100%;height:100%"></dc-import>
+          <div style="position:absolute;top:10px;left:50%;transform:translateX(-50%);width:104px;height:30px;background:#0a0907;border-radius:18px;z-index:90;pointer-events:none"></div>
+          <div style="position:absolute;bottom:7px;left:50%;transform:translateX(-50%);width:116px;height:5px;border-radius:100px;background:#33302a;opacity:0.3;z-index:90;pointer-events:none"></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;align-items:center;gap:14px">
+      <div style="font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#a89e8e">Profil</div>
+      <div style="width:330px;height:702px;background:#1c1a16;border-radius:48px;padding:5px;box-shadow:0 40px 80px -34px rgba(60,40,30,0.5);position:relative">
+        <div style="width:320px;height:692px;border-radius:43px;overflow:hidden;position:relative;background:#f7f2ea">
+          <dc-import name="RoseApp" platform="ios" start-stage="app" initial-tab="profile" hint-size="100%,100%" style="display:block;width:100%;height:100%"></dc-import>
+          <div style="position:absolute;top:10px;left:50%;transform:translateX(-50%);width:104px;height:30px;background:#0a0907;border-radius:18px;z-index:90;pointer-events:none"></div>
+          <div style="position:absolute;bottom:7px;left:50%;transform:translateX(-50%);width:116px;height:5px;border-radius:100px;background:#33302a;opacity:0.3;z-index:90;pointer-events:none"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ===== ANDROID ===== -->
+  <div style="width:100%;max-width:1320px;margin-top:48px;font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#8c8475">App · Android</div>
+  <div style="display:flex;flex-wrap:wrap;gap:40px;justify-content:center;width:100%;margin-top:6px">
+    <div style="display:flex;flex-direction:column;align-items:center;gap:14px">
+      <div style="font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#a89e8e">Pixel · Profil</div>
+      <div style="width:328px;height:702px;background:#1c1a16;border-radius:34px;padding:4px;box-shadow:0 40px 80px -34px rgba(60,40,30,0.5);position:relative">
+        <div style="width:320px;height:694px;border-radius:30px;overflow:hidden;position:relative;background:#f7f2ea">
+          <dc-import name="RoseApp" platform="android" start-stage="app" initial-tab="profile" hint-size="100%,100%" style="display:block;width:100%;height:100%"></dc-import>
+          <div style="position:absolute;top:11px;left:50%;transform:translateX(-50%);width:10px;height:10px;border-radius:50%;background:#0a0907;z-index:90;pointer-events:none"></div>
+          <div style="position:absolute;bottom:8px;left:50%;transform:translateX(-50%);width:100px;height:4px;border-radius:100px;background:#33302a;opacity:0.28;z-index:90;pointer-events:none"></div>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;align-items:center;gap:14px">
+      <div style="font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#a89e8e">Pixel · Bibel</div>
+      <div style="width:328px;height:702px;background:#1c1a16;border-radius:34px;padding:4px;box-shadow:0 40px 80px -34px rgba(60,40,30,0.5);position:relative">
+        <div style="width:320px;height:694px;border-radius:30px;overflow:hidden;position:relative;background:#f7f2ea">
+          <dc-import name="RoseApp" platform="android" start-stage="app" initial-tab="bibel" hint-size="100%,100%" style="display:block;width:100%;height:100%"></dc-import>
+          <div style="position:absolute;top:11px;left:50%;transform:translateX(-50%);width:10px;height:10px;border-radius:50%;background:#0a0907;z-index:90;pointer-events:none"></div>
+          <div style="position:absolute;bottom:8px;left:50%;transform:translateX(-50%);width:100px;height:4px;border-radius:100px;background:#33302a;opacity:0.28;z-index:90;pointer-events:none"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== LANDING (Laptop) ===== -->
+  <div style="width:100%;max-width:1320px;margin-top:48px;font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#8c8475">Landingpage</div>
+  <div style="display:flex;justify-content:center;width:100%;margin-top:10px">
+    <div style="width:1040px;max-width:100%;display:flex;flex-direction:column;align-items:center">
+      <div style="width:100%;background:#1c1a16;border-radius:22px 22px 0 0;padding:12px;box-shadow:0 40px 80px -34px rgba(60,40,30,0.5)">
+        <div style="height:26px;display:flex;align-items:center;gap:7px;padding:0 4px 10px">
+          <span style="width:11px;height:11px;border-radius:50%;background:#e0726a"></span><span style="width:11px;height:11px;border-radius:50%;background:#e7b14e"></span><span style="width:11px;height:11px;border-radius:50%;background:#5fb86f"></span>
+        </div>
+        <div class="lpscroll" style="height:620px;overflow-y:auto;border-radius:8px;background:#f7f2ea">
+
+          <!-- nav -->
+          <div style="position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;padding:18px 32px;background:rgba(247,242,234,0.92);backdrop-filter:saturate(150%) blur(10px);border-bottom:1px solid #ece3d6">
+            <div style="display:flex;align-items:center;gap:9px"><div style="width:28px;height:28px;border-radius:9px;background:#c0705e;display:flex;align-items:center;justify-content:center;font-family:Newsreader,serif;font-size:17px;font-weight:600;color:#fff;padding-bottom:1px">R</div><span style="font-family:Newsreader,serif;font-size:21px;font-weight:600">Rose</span></div>
+            <div style="display:flex;align-items:center;gap:26px;font-size:12.5px;font-weight:600;letter-spacing:0.06em;color:#6b6457">
+              <span>HOW IT WORKS</span><span>HOW ROSE HELPS</span><span>ABOUT</span><span>COMMUNITY</span>
+              <span style="background:#33302a;color:#fff;border-radius:20px;padding:10px 18px;letter-spacing:0.04em">LADEN</span>
+            </div>
+          </div>
+
+          <!-- hero -->
+          <div style="display:flex;gap:40px;align-items:center;padding:46px 44px 40px">
+            <div style="flex:1">
+              <div style="display:inline-flex;align-items:center;gap:7px;background:#f0e0d9;color:#b15f4d;border-radius:16px;padding:6px 13px;font-size:12px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase">Don't read. Just speak.</div>
+              <div style="font-family:Newsreader,serif;font-size:52px;font-weight:600;letter-spacing:-0.025em;line-height:1.03;margin-top:18px">Die Bibel —<br/>zum <span style="font-style:italic;color:#c0705e">Sprechen</span>.</div>
+              <p style="font-size:16px;line-height:1.6;color:#6b6457;max-width:400px;margin:16px 0 0;letter-spacing:-0.01em">Lies in Ruhe, frag Rose alles über Glaube und Schrift — oder ruf einfach an und sprich. Eine ruhige Begleiterin, ohne Lärm.</p>
+              <div style="display:flex;gap:11px;margin-top:24px">
+                <button style="border:none;background:#c0705e;color:#fff;font-family:inherit;font-size:15px;font-weight:600;border-radius:26px;padding:14px 26px;cursor:pointer;letter-spacing:-0.01em;box-shadow:0 14px 30px -12px rgba(192,112,94,0.6)">Kostenlos laden</button>
+                <button style="border:1px solid #ddd2c2;background:#fffdf9;color:#33302a;font-family:inherit;font-size:15px;font-weight:600;border-radius:26px;padding:14px 24px;cursor:pointer;letter-spacing:-0.01em">Mehr erfahren</button>
+              </div>
+            </div>
+            <div style="flex:none;width:300px;height:340px;border-radius:24px;border:1px solid #e2d8c9;background:repeating-linear-gradient(45deg,#efe8dd,#efe8dd 12px,#f5f0e7 12px,#f5f0e7 24px);display:flex;align-items:center;justify-content:center"><span style="font-family:ui-monospace,monospace;font-size:11px;color:#a89e8e;background:#fffdf9;border:1px solid #e2d8c9;border-radius:8px;padding:8px 13px">[ App-Screenshot ]</span></div>
+          </div>
+
+          <!-- how it works -->
+          <div style="background:#fffdf9;border-top:1px solid #ece3d6;border-bottom:1px solid #ece3d6;padding:44px">
+            <div style="font-size:12px;font-weight:600;letter-spacing:0.14em;color:#c0705e">HOW IT WORKS</div>
+            <div style="font-family:Newsreader,serif;font-size:28px;font-weight:600;letter-spacing:-0.02em;margin-top:8px">In drei ruhigen Schritten</div>
+            <div style="display:flex;gap:18px;margin-top:24px">
+              <div style="flex:1"><div style="width:32px;height:32px;border-radius:50%;border:1.5px solid #c0705e;color:#c0705e;display:flex;align-items:center;justify-content:center;font-family:Newsreader,serif;font-weight:600">1</div><div style="font-size:15.5px;font-weight:600;margin-top:12px">Öffne die Bibel oder frag</div><div style="font-size:13.5px;line-height:1.55;color:#6b6457;margin-top:5px">Lies ein Kapitel — oder tipp deine Frage ein.</div></div>
+              <div style="flex:1"><div style="width:32px;height:32px;border-radius:50%;border:1.5px solid #c0705e;color:#c0705e;display:flex;align-items:center;justify-content:center;font-family:Newsreader,serif;font-weight:600">2</div><div style="font-size:15.5px;font-weight:600;margin-top:12px">Rose antwortet mit Vers</div><div style="font-size:13.5px;line-height:1.55;color:#6b6457;margin-top:5px">Einfache Sprache, immer mit Beleg.</div></div>
+              <div style="flex:1"><div style="width:32px;height:32px;border-radius:50%;border:1.5px solid #c0705e;color:#c0705e;display:flex;align-items:center;justify-content:center;font-family:Newsreader,serif;font-weight:600">3</div><div style="font-size:15.5px;font-weight:600;margin-top:12px">Oder ruf an & sprich</div><div style="font-size:13.5px;line-height:1.55;color:#6b6457;margin-top:5px">Tippe auf den Hörer und rede mit Rose.</div></div>
+            </div>
+          </div>
+
+          <!-- call animation -->
+          <div style="background:#f7ece7;padding:46px 44px;display:flex;align-items:center;gap:44px">
+            <div style="flex:1">
+              <div style="font-size:12px;font-weight:600;letter-spacing:0.14em;color:#c0705e">MIT ROSE SPRECHEN</div>
+              <div style="font-family:Newsreader,serif;font-size:32px;font-weight:600;letter-spacing:-0.02em;line-height:1.1;margin-top:10px">Ruf Rose an —<br/>und sprich einfach.</div>
+              <p style="font-size:15px;line-height:1.6;color:#6b6457;max-width:340px;margin:14px 0 0;letter-spacing:-0.01em">Kein Tippen nötig. Stell deine Frage laut, und Rose antwortet dir mit ruhiger Stimme und dem passenden Vers.</p>
+            </div>
+            <div style="flex:none;display:flex;flex-direction:column;align-items:center;gap:20px">
+              <div style="position:relative;width:180px;height:180px;display:flex;align-items:center;justify-content:center">
+                <span style="position:absolute;width:108px;height:108px;border-radius:50%;border:2px solid #c0705e;animation:lpring 2.6s ease-out infinite"></span>
+                <span style="position:absolute;width:108px;height:108px;border-radius:50%;border:2px solid #c0705e;animation:lpring 2.6s ease-out infinite;animation-delay:0.87s"></span>
+                <span style="position:absolute;width:108px;height:108px;border-radius:50%;border:2px solid #c0705e;animation:lpring 2.6s ease-out infinite;animation-delay:1.73s"></span>
+                <div style="width:100px;height:100px;border-radius:50%;background:#c0705e;color:#fff;display:flex;align-items:center;justify-content:center;font-family:Newsreader,serif;font-size:42px;font-weight:600;z-index:1;box-shadow:0 16px 34px -12px rgba(192,112,94,0.7);animation:lpfloat 3.2s ease-in-out infinite;padding-bottom:3px">R</div>
+              </div>
+              <div style="display:flex;align-items:flex-end;gap:4px;height:30px">
+                <span style="width:4px;height:30px;border-radius:2px;background:#c0705e;transform-origin:bottom;animation:lpwave 1s ease-in-out -0.1s infinite"></span>
+                <span style="width:4px;height:30px;border-radius:2px;background:#d79e90;transform-origin:bottom;animation:lpwave 0.8s ease-in-out -0.4s infinite"></span>
+                <span style="width:4px;height:30px;border-radius:2px;background:#c0705e;transform-origin:bottom;animation:lpwave 1.3s ease-in-out -0.2s infinite"></span>
+                <span style="width:4px;height:30px;border-radius:2px;background:#e3b6a6;transform-origin:bottom;animation:lpwave 0.95s ease-in-out -0.5s infinite"></span>
+                <span style="width:4px;height:30px;border-radius:2px;background:#c0705e;transform-origin:bottom;animation:lpwave 1.15s ease-in-out 0s infinite"></span>
+                <span style="width:4px;height:30px;border-radius:2px;background:#d79e90;transform-origin:bottom;animation:lpwave 0.85s ease-in-out -0.3s infinite"></span>
+                <span style="width:4px;height:30px;border-radius:2px;background:#c0705e;transform-origin:bottom;animation:lpwave 1.25s ease-in-out -0.15s infinite"></span>
+              </div>
+              <div style="display:flex;align-items:center;gap:7px;font-size:11.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#b15f4d"><span style="width:7px;height:7px;border-radius:50%;background:#c0705e;animation:lppulse 1.4s ease-in-out infinite"></span>Live · Rose spricht</div>
+            </div>
+          </div>
+
+          <!-- how rose helps -->
+          <div style="background:#fffdf9;border-top:1px solid #ece3d6;border-bottom:1px solid #ece3d6;padding:44px">
+            <div style="font-size:12px;font-weight:600;letter-spacing:0.14em;color:#c0705e">HOW ROSE HELPS</div>
+            <div style="font-family:Newsreader,serif;font-size:28px;font-weight:600;letter-spacing:-0.02em;margin-top:8px">Drei Wege, näher dran zu sein</div>
+            <div style="display:flex;gap:18px;margin-top:24px">
+              <div style="flex:1"><div style="font-family:Newsreader,serif;font-size:19px;font-weight:600">Lesen</div><div style="font-size:13.5px;line-height:1.55;color:#6b6457;margin-top:6px">Die ganze Bibel, ruhig gesetzt. Blättere, merke dir Verse, schreib Notizen.</div></div>
+              <div style="flex:1"><div style="font-family:Newsreader,serif;font-size:19px;font-weight:600">Fragen</div><div style="font-size:13.5px;line-height:1.55;color:#6b6457;margin-top:6px">Frag Rose alles über Glaube und Schrift — immer mit Bibelvers.</div></div>
+              <div style="flex:1"><div style="font-family:Newsreader,serif;font-size:19px;font-weight:600">Sprechen</div><div style="font-size:13.5px;line-height:1.55;color:#6b6457;margin-top:6px">Ruf Rose an und sprich. Sie hört zu und antwortet mit Stimme.</div></div>
+            </div>
+          </div>
+
+          <!-- about -->
+          <div style="padding:48px 44px;display:flex;gap:44px;align-items:center">
+            <div style="flex:none;width:340px;height:260px;border-radius:22px;border:1px solid #e2d8c9;background:repeating-linear-gradient(45deg,#efe8dd,#efe8dd 11px,#f5f0e7 11px,#f5f0e7 22px);display:flex;align-items:center;justify-content:center"><span style="font-family:ui-monospace,monospace;font-size:11px;color:#a89e8e;background:#fffdf9;border:1px solid #e2d8c9;border-radius:8px;padding:8px 13px">[ Foto: Mensch liest Bibel ]</span></div>
+            <div style="flex:1">
+              <div style="font-size:12px;font-weight:600;letter-spacing:0.14em;color:#c0705e">ABOUT</div>
+              <div style="font-family:Newsreader,serif;font-size:30px;font-weight:600;letter-spacing:-0.02em;line-height:1.1;margin-top:10px">Warum es Rose gibt</div>
+              <p style="font-size:15px;line-height:1.65;color:#6b6457;margin:14px 0 0;letter-spacing:-0.01em">Die Bibel kann groß und fremd wirken. Rose macht sie nahbar — ohne Lärm, ohne Likes, ohne Druck. Eine ruhige Begleiterin, die zuhört, erklärt und auf das Wort zurückführt.</p>
+            </div>
+          </div>
+
+          <!-- community -->
+          <div style="background:#fffdf9;border-top:1px solid #ece3d6;padding:48px 44px;display:flex;flex-direction:column;align-items:center;text-align:center">
+            <div style="font-size:12px;font-weight:600;letter-spacing:0.14em;color:#c0705e">COMMUNITY</div>
+            <div style="font-family:Newsreader,serif;font-size:30px;font-weight:600;letter-spacing:-0.02em;margin-top:10px;max-width:440px;line-height:1.12">Lesen verbindet — auch wenn du allein liest</div>
+            <p style="font-size:15px;line-height:1.6;color:#6b6457;margin:13px 0 0;letter-spacing:-0.01em;max-width:460px">Tritt kleinen Lesekreisen & Gebetsgruppen bei oder besuche Events — in deinem Tempo, ohne öffentlichen Feed.</p>
+            <div style="display:flex;margin-top:22px">
+              <div style="width:42px;height:42px;border-radius:50%;background:#e3ece5;color:#4f7a60;display:flex;align-items:center;justify-content:center;font-family:Newsreader,serif;font-weight:600;border:2px solid #fffdf9">H</div>
+              <div style="width:42px;height:42px;border-radius:50%;background:#e9e0ee;color:#7a5e96;display:flex;align-items:center;justify-content:center;font-family:Newsreader,serif;font-weight:600;border:2px solid #fffdf9;margin-left:-10px">M</div>
+              <div style="width:42px;height:42px;border-radius:50%;background:#efe2d8;color:#9a6f4a;display:flex;align-items:center;justify-content:center;font-family:Newsreader,serif;font-weight:600;border:2px solid #fffdf9;margin-left:-10px">D</div>
+              <div style="width:42px;height:42px;border-radius:50%;background:#c0705e;color:#fff;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;border:2px solid #fffdf9;margin-left:-10px">+9</div>
+            </div>
+          </div>
+
+          <!-- footer cta -->
+          <div style="padding:48px 44px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px">
+            <div style="font-family:Newsreader,serif;font-size:32px;font-weight:600;letter-spacing:-0.02em;line-height:1.1;max-width:440px">Fang heute an,<br/>in Ruhe zu lesen.</div>
+            <button style="border:none;background:#c0705e;color:#fff;font-family:inherit;font-size:15px;font-weight:600;border-radius:26px;padding:14px 30px;cursor:pointer;letter-spacing:-0.01em;box-shadow:0 14px 30px -12px rgba(192,112,94,0.6)">Rose kostenlos laden</button>
+            <div style="font-size:12px;color:#a89e8e;letter-spacing:0.02em">Rose · 2026 · Datenschutz · Impressum</div>
+          </div>
+
+        </div>
+      </div>
+      <div style="width:118%;max-width:118%;height:16px;background:linear-gradient(180deg,#d9d2c6,#c4bcab);border-radius:0 0 14px 14px"></div>
+    </div>
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>

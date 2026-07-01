@@ -47,7 +47,7 @@ const TestimonialsSection = () => {
     <section id="community" className="py-20 md:py-32 bg-white overflow-hidden">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10">
         <div className="text-center mb-16">
-          <p className="text-sm font-medium text-[#0F172A] tracking-wider uppercase mb-4">
+          <p className="text-sm font-medium text-[#33302A] tracking-wider uppercase mb-4">
             OUR COMMUNITY
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-gray-900">
@@ -73,7 +73,7 @@ const TestimonialsSection = () => {
               <p className="font-semibold text-gray-900">
                 {testimonial.name}
               </p>
-              <p className="text-sm text-[#0F172A]">{testimonial.useCase}</p>
+              <p className="text-sm text-[#33302A]">{testimonial.useCase}</p>
             </div>
           </div>
         ))}

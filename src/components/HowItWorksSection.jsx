@@ -58,12 +58,12 @@ const RoseInsightPreview = ({ demo }) => {
         aria-hidden="true"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-gray-950/10 via-gray-950/25 to-gray-950/85" />
-      <div className="absolute inset-0 bg-[#8F1010]/10 mix-blend-multiply" />
+      <div className="absolute inset-0 bg-[#C0705E]/10 mix-blend-multiply" />
 
       <div className="relative z-10 flex min-h-[520px] flex-col p-5 sm:p-6">
-        <div className="ml-auto mt-16 max-w-[255px] rounded-[18px] border border-white/25 bg-[#0F172A]/70 px-4 py-3 text-sm leading-relaxed text-white shadow-lg backdrop-blur-md">
+        <div className="ml-auto mt-16 max-w-[255px] rounded-[18px] border border-white/25 bg-[#33302A]/70 px-4 py-3 text-sm leading-relaxed text-white shadow-lg backdrop-blur-md">
           <div className="mb-3 flex items-center gap-2 text-white">
-            <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-white text-[#0F172A]">
+            <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-white text-[#33302A]">
               <Mic size={15} aria-hidden="true" />
             </span>
             <span className="text-[10px] font-bold uppercase tracking-wide text-white/70">
@@ -85,7 +85,7 @@ const RoseInsightPreview = ({ demo }) => {
           <p>{demo.question}</p>
         </div>
 
-        <div className="mt-4 rounded-[18px] bg-[#45A0BE]/95 p-5 text-white shadow-xl backdrop-blur-sm">
+        <div className="mt-4 rounded-[18px] bg-[#C0705E]/95 p-5 text-white shadow-xl backdrop-blur-sm">
           <p className="text-xs font-bold uppercase leading-none tracking-wide text-yellow-200">
             {demo.status}
           </p>
@@ -119,7 +119,7 @@ const HowItWorksSection = () => {
     <section id="how-it-works" className="py-20 md:py-32 bg-white">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10">
         <div className="text-center mb-16">
-          <p className="text-sm font-medium text-[#0F172A] tracking-wider uppercase mb-4">
+          <p className="text-sm font-medium text-[#33302A] tracking-wider uppercase mb-4">
             HOW ROSE WORKS
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-gray-900">

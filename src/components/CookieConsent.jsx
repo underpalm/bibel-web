@@ -67,14 +67,14 @@ const CookieConsent = () => {
           <button
             type="button"
             onClick={() => saveConsent("necessary")}
-            className="rounded-full border border-gray-200 px-4 py-2 text-sm font-medium text-gray-700 hover:border-gray-300 hover:bg-gray-50"
+            className="rounded-full bg-[#33302A] px-4 py-2 text-sm font-medium text-white hover:bg-[#4A443B]"
           >
             Necessary only
           </button>
           <button
             type="button"
             onClick={() => saveConsent("all")}
-            className="rounded-full bg-gray-950 px-4 py-2 text-sm font-medium text-white hover:bg-gray-800"
+            className="rounded-full bg-[#C0705E] px-4 py-2 text-sm font-medium text-white hover:bg-[#b15f4d]"
           >
             Accept all
           </button>

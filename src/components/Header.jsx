@@ -83,7 +83,7 @@ const Header = () => {
               <button
                 type="button"
                 onClick={openStoreModal}
-                className="inline-flex items-center justify-center rounded-full bg-[#0F172A] px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-[#1E293B] hover:shadow-lg hover:shadow-[#0F172A]/25"
+                className="inline-flex items-center justify-center rounded-full bg-[#C0705E] px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-[#b15f4d] hover:shadow-lg hover:shadow-[#C0705E]/40"
               >
                 Try Now (Beta)
               </button>

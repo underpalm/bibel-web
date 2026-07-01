@@ -11,7 +11,7 @@ const HeroSection = () => {
         className="absolute inset-0 z-0"
         style={{
           background:
-            "radial-gradient(ellipse at 50% 0%, rgba(15, 23, 42, 0.11) 0%, rgba(15, 23, 42, 0) 46%), radial-gradient(circle at 18% 12%, rgba(143, 16, 16, 0.12) 0%, rgba(255, 255, 255, 0) 34%)",
+            "radial-gradient(ellipse at 50% 0%, rgba(51, 48, 42, 0.11) 0%, rgba(51, 48, 42, 0) 46%), radial-gradient(circle at 18% 12%, rgba(192, 112, 94, 0.12) 0%, rgba(255, 255, 255, 0) 34%)",
         }}
       />
 
@@ -40,7 +40,7 @@ const HeroSection = () => {
             href="https://app.galenai.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#0F172A] hover:bg-[#1E293B] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#0F172A]/25"
+            className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#C0705E] hover:bg-[#b15f4d] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#C0705E]/40"
           >
             Download for iOS
           </a>
@@ -48,7 +48,7 @@ const HeroSection = () => {
             href="https://app.galenai.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-white hover:bg-gray-50 text-gray-700 font-medium rounded-full border border-gray-200 hover:border-gray-300 transition-all duration-300"
+            className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#33302A] hover:bg-[#4A443B] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#33302A]/25"
           >
             Download for Android
           </a>
@@ -62,19 +62,19 @@ const HeroSection = () => {
       </div>
 
       <div className="relative z-10 mb-36 mt-10 aspect-video w-[calc(100vw-32px)] max-w-[1400px] md:mt-12 md:w-[calc(100vw-80px)] sm:mb-0">
-        <div className="absolute inset-0 overflow-hidden rounded-[28px] border border-white/80 bg-[#F5F9FB] shadow-2xl shadow-[#0F172A]/10 md:rounded-[36px]">
+        <div className="absolute inset-0 overflow-hidden rounded-[28px] border border-white/80 bg-[#FFFDF9] shadow-2xl shadow-[#33302A]/10 md:rounded-[36px]">
           <img
             src={heroVideoImage}
             alt="Family walking through a mountain meadow"
             className="absolute inset-0 h-full w-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-[#0F172A]/35 via-[#0F172A]/5 to-[#8F1010]/10" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0F172A]/35 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#33302A]/35 via-[#33302A]/5 to-[#C0705E]/10" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#33302A]/35 via-transparent to-transparent" />
         </div>
 
-        <div className="absolute left-0 top-[calc(100%+12px)] w-[calc(100%-24px)] max-w-[300px] rounded-2xl border border-white/25 bg-[#0F172A]/80 p-3 text-white shadow-2xl backdrop-blur-md sm:left-8 sm:top-8 sm:w-[360px] sm:max-w-[360px] sm:bg-[#0F172A]/50 sm:p-5">
+        <div className="absolute left-0 top-[calc(100%+12px)] w-[calc(100%-24px)] max-w-[300px] rounded-2xl border border-white/25 bg-[#33302A]/80 p-3 text-white shadow-2xl backdrop-blur-md sm:left-8 sm:top-8 sm:w-[360px] sm:max-w-[360px] sm:bg-[#33302A]/50 sm:p-5">
           <div className="flex items-center gap-3">
-            <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-white text-[#0F172A]">
+            <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-white text-[#33302A]">
               <Mic size={20} aria-hidden="true" />
             </span>
             <div>

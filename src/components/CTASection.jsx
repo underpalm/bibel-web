@@ -12,7 +12,7 @@ const CTASection = () => {
             href="https://app.galenai.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#0F172A] hover:bg-[#1E293B] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#0F172A]/25"
+            className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#C0705E] hover:bg-[#b15f4d] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#C0705E]/40"
           >
             Download for iOS
           </a>
@@ -20,7 +20,7 @@ const CTASection = () => {
             href="https://app.galenai.com/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-white hover:bg-gray-50 text-gray-700 font-medium rounded-full border border-gray-200 hover:border-gray-300 transition-all duration-300"
+            className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#33302A] hover:bg-[#4A443B] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#33302A]/25"
           >
             Download for Android
           </a>

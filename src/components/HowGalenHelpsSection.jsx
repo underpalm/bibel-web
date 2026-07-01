@@ -36,7 +36,7 @@ const HelpScreenPreview = ({ item }) => {
           className="absolute inset-0 h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-gray-950/35 via-gray-950/15 to-gray-950/70" />
-        <div className="absolute inset-0 bg-[#0F172A]/16 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-[#33302A]/16 mix-blend-multiply" />
 
         <div className="relative z-10 flex min-h-[690px] flex-col p-6 sm:p-8">
           <div className="pt-6">
@@ -97,10 +97,10 @@ const HowGalenHelpsSection = () => {
   const activeItem = howGalenHelps[activeTab];
 
   return (
-    <section id="how-galen-helps" className="py-20 md:py-32 bg-[#F5F9FB]">
+    <section id="how-galen-helps" className="py-20 md:py-32 bg-[#FFFDF9]">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10">
         <div className="text-center mb-16">
-          <p className="text-sm font-medium text-[#8F1010] tracking-wider uppercase mb-4">
+          <p className="text-sm font-medium text-[#C0705E] tracking-wider uppercase mb-4">
             HOW ROSE HELPS
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-gray-900">
@@ -134,8 +134,8 @@ const HowGalenHelpsSection = () => {
                 )}
                 {activeTab === index && (
                   <div className="mt-4 flex gap-1">
-                    <div className="h-1 w-12 bg-[#0F172A] rounded-full" />
-                    <div className="h-1 w-8 bg-[#0F172A]/30 rounded-full" />
+                    <div className="h-1 w-12 bg-[#33302A] rounded-full" />
+                    <div className="h-1 w-8 bg-[#33302A]/30 rounded-full" />
                   </div>
                 )}
               </button>

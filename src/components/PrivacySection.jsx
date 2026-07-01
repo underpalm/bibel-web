@@ -7,14 +7,14 @@ const PrivacyIcon = ({ type }) => {
   if (type === "private") {
     return (
       <div className="w-8 h-8 flex items-center justify-center">
-        <Heart className="w-6 h-6 text-[#8F1010]" />
+        <Heart className="w-6 h-6 text-[#C0705E]" />
       </div>
     );
   }
   if (type === "encrypted") {
     return (
       <div className="w-8 h-8 flex items-center justify-center">
-        <Lock className="w-6 h-6 text-[#0F172A]" />
+        <Lock className="w-6 h-6 text-[#33302A]" />
       </div>
     );
   }
@@ -29,7 +29,7 @@ const PrivacySection = () => {
   return (
     <section id="about" className="py-20 md:py-32 bg-white">
       <div className="max-w-[1200px] mx-auto px-6 md:px-10">
-        <div className="bg-gradient-to-br from-[#8F1010]/5 to-white rounded-3xl p-8 md:p-12 mb-8">
+        <div className="bg-gradient-to-br from-[#C0705E]/5 to-white rounded-3xl p-8 md:p-12 mb-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="text-left">
               <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-6">
@@ -71,10 +71,10 @@ const PrivacySection = () => {
               key={feature.id}
               className={`p-6 rounded-2xl ${
                 index === 0
-                  ? "bg-[#8F1010]/5"
+                  ? "bg-[#C0705E]/5"
                   : index === 1
                     ? "bg-amber-50"
-                    : "bg-[#0F172A]/5"
+                    : "bg-[#33302A]/5"
               }`}
             >
               <div className="mb-4">
@@ -96,7 +96,7 @@ const PrivacySection = () => {
             href="https://app.galenai.com/"
             target="_blank"
             rel="noopener noreferrer"
-              className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#0F172A] hover:bg-[#1E293B] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#0F172A]/25"
+              className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#C0705E] hover:bg-[#b15f4d] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#C0705E]/40"
             >
               Download for iOS
             </a>
@@ -104,7 +104,7 @@ const PrivacySection = () => {
               href="https://app.galenai.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-white hover:bg-gray-50 text-gray-700 font-medium rounded-full border border-gray-200 hover:border-gray-300 transition-all duration-300"
+              className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#33302A] hover:bg-[#4A443B] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#33302A]/25"
             >
               Download for Android
             </a>
