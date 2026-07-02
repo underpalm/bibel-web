@@ -33,25 +33,33 @@ const PrivacySection = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="text-left">
               <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-6">
-                Why we built Rose
+                Rose helps you understand the Bible through conversation.
               </h2>
               <div className="space-y-5 text-left text-gray-600 leading-relaxed">
                 <p>
-                  We believe that the Bible should not be locked behind
-                  literacy, eyesight, or theological degrees. Thousands of
-                  people give up reading the Bible because it feels overwhelming
-                  or abstract. So we built Rose – an AI that makes the Bible a
-                  living, speaking companion.
-                </p>
-                <p>
-                  Ask Rose anything: "What does grace mean?" – "Explain the Good
-                  Samaritan to me like I am 10 years old." – "What would Jesus
-                  say about burnout?" Rose gives you answers, verses, and
-                  context. Our mission: Biblical understanding for every human
-                  being, regardless of who they are.
+                  Not by talking to the past. Not by speaking with Jesus. But
+                  by making the Bible accessible – for everyone.
                 </p>
                 <p className="font-serif text-2xl text-gray-900">
-                  The Bible you can talk to.
+                  Why we built Rose
+                </p>
+                <p>
+                  We believe the Bible should not be locked behind literacy,
+                  eyesight, or theological degrees. Thousands of people give up
+                  reading the Bible because it feels overwhelming or abstract.
+                  So we built Rose – an AI that helps you explore Scripture
+                  through natural conversation.
+                </p>
+                <p>
+                  Ask Rose anything: "What does grace mean?" – "Explain the
+                  Good Samaritan to me like I am 10 years old." – "What does
+                  the Bible say about rest and weariness?" Rose gives you
+                  answers, verses, and context. Our mission: Biblical
+                  understanding for every human being, regardless of who they
+                  are.
+                </p>
+                <p className="font-serif text-2xl text-gray-900">
+                  A new way to explore the Bible.
                 </p>
               </div>
             </div>
