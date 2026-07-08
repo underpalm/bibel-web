@@ -7,27 +7,29 @@ import HowGalenHelpsSection from "./components/HowGalenHelpsSection";
 import PrivacySection from "./components/PrivacySection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import FAQSection from "./components/FAQSection";
-import CTASection from "./components/CTASection";
-import NewsletterSection from "./components/NewsletterSection";
 import Footer from "./components/Footer";
-import CookieConsent from "./components/CookieConsent";
+import ComingSoonPage from "./components/ComingSoonPage";
+import { StoreModalProvider } from "./components/StoreModal";
 
 function App() {
+  if (window.location.pathname !== "/home") {
+    return <ComingSoonPage />;
+  }
+
   return (
     <div className="App">
-      <Header />
-      <main>
-        <HeroSection />
-        <HowItWorksSection />
-        <HowGalenHelpsSection />
-        <PrivacySection />
-        <TestimonialsSection />
-        <FAQSection />
-        <CTASection />
-        <NewsletterSection />
-      </main>
-      <Footer />
-      <CookieConsent />
+      <StoreModalProvider>
+        <Header />
+        <main>
+          <HeroSection />
+          <HowItWorksSection />
+          <HowGalenHelpsSection />
+          <PrivacySection />
+          <TestimonialsSection />
+          <FAQSection />
+        </main>
+        <Footer />
+      </StoreModalProvider>
     </div>
   );
 }

@@ -50,7 +50,7 @@ const FAQSection = () => {
             If you have more questions, we're here to listen and happy to guide
             you.{" "}
             <a
-              href="mailto:contact@galenai.com"
+              href="mailto:lukeloresearch@gmail.com"
               className="text-[#33302A] hover:underline font-medium"
             >
               Contact us

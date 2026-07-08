@@ -4,27 +4,122 @@ import roseLogo from "../../bilder/logo_black_web.png";
 
 const legalContent = {
   privacy: {
-    title: "Privacy Policy",
-    intro:
-      "This placeholder privacy policy explains how Rose may handle account information, waitlist submissions, device data, and communication preferences.",
-    sections: [
-      {
-        heading: "Information We Collect",
-        body: "We may collect your email address, basic account details, device information, and any information you choose to submit through forms on this website.",
-      },
-      {
-        heading: "How We Use Information",
-        body: "Information is used to provide access, send product updates, improve the experience, protect the service, and respond to support requests.",
-      },
-      {
-        heading: "Cookies",
-        body: "We use necessary cookies to operate this website. Optional cookies may be used only after you accept them and can be changed through the cookie settings link in the footer.",
-      },
-      {
-        heading: "Your Choices",
-        body: "You may request access, correction, or deletion of your information. You can also unsubscribe from non-essential emails at any time.",
-      },
-    ],
+    de: {
+      title: "Datenschutzerklärung",
+      intro:
+        "Diese Datenschutzerklärung informiert Sie darüber, wie wir im Rahmen dieser Website (rose-bible.com) mit personenbezogenen Daten umgehen.",
+      sections: [
+        {
+          heading: "1. Verantwortlicher",
+          body: "Gracia Lukelo\nGerresheimer Straße 182\n40233 Düsseldorf\nDeutschland\n\nE-Mail: lukeloresearch@gmail.com\n\nVerantwortlich im Sinne der DSGVO (Art. 4 Nr. 7 DSGVO) für die Datenverarbeitung auf dieser Website.",
+        },
+        {
+          heading: "2. Allgemeines zur Datenverarbeitung",
+          body: "Diese Website ist eine Projekt- und Vorschauseite für Rose, eine sich aktuell in Entwicklung befindliche App. Es werden derzeit keine Kontakt- oder Anmeldeformulare auf dieser Seite angeboten. Es findet keine Registrierung, kein Login und keine Newsletter-Anmeldung auf dieser Website statt.",
+        },
+        {
+          heading: "3. Hosting",
+          body: "Diese Website wird über Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA, gehostet. Beim Aufruf der Website verarbeitet Vercel automatisch technische Zugriffsdaten (Server-Logfiles), die Ihr Browser übermittelt, u. a. IP-Adresse, Datum und Uhrzeit der Anfrage, Browsertyp und -version, Betriebssystem sowie die aufgerufene Seite.\n\nDiese Daten werden verarbeitet, um die Website technisch bereitzustellen, die Systemsicherheit zu gewährleisten und Fehler zu analysieren (Art. 6 Abs. 1 lit. f DSGVO – berechtigtes Interesse an einem sicheren und funktionsfähigen Betrieb der Website). Da Vercel Inc. mit Sitz in den USA ein Drittland im Sinne der DSGVO ist, kann es zu einer Datenübermittlung in die USA kommen. Vercel hat sich zu den Standardvertragsklauseln (SCC) der EU-Kommission verpflichtet, um ein angemessenes Datenschutzniveau sicherzustellen.",
+        },
+        {
+          heading: "4. Cookies",
+          body: "Diese Website verwendet aktuell keine Cookies und keine vergleichbaren Speichertechnologien. Es werden auch keine Analyse-Tools (z. B. Google Analytics) und keine Marketing- oder Tracking-Pixel eingesetzt. Sollte sich dies ändern, aktualisieren wir diese Datenschutzerklärung entsprechend und holen, soweit erforderlich, vorab Ihre Einwilligung ein.",
+        },
+        {
+          heading: "5. Externe Links",
+          body: "Diese Website kann Verlinkungen zu App-Stores (Apple App Store, Google Play Store) enthalten. Beim Anklicken verlassen Sie unsere Website; für die Datenverarbeitung auf diesen externen Seiten sind ausschließlich deren jeweilige Betreiber verantwortlich.",
+        },
+        {
+          heading: "6. Ihre Rechte",
+          body: "Sie haben nach der DSGVO das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21) bezüglich Ihrer personenbezogenen Daten. Wenden Sie sich hierzu an die oben genannte E-Mail-Adresse. Zudem steht Ihnen ein Beschwerderecht bei einer Datenschutzaufsichtsbehörde zu, z. B. der Landesbeauftragten für Datenschutz und Informationsfreiheit Nordrhein-Westfalen.",
+        },
+        {
+          heading: "7. Änderungen dieser Datenschutzerklärung",
+          body: "Da sich Rose aktuell im Aufbau befindet, kann sich der Funktionsumfang dieser Website und damit diese Datenschutzerklärung ändern. Es gilt jeweils die aktuelle, auf dieser Seite veröffentlichte Fassung.",
+        },
+      ],
+    },
+    en: {
+      title: "Privacy Policy",
+      intro:
+        "This privacy policy explains how we handle personal data in connection with this website (rose-bible.com).",
+      sections: [
+        {
+          heading: "1. Controller",
+          body: "Gracia Lukelo\nGerresheimer Straße 182\n40233 Düsseldorf\nGermany\n\nEmail: lukeloresearch@gmail.com\n\nController within the meaning of the GDPR (Art. 4 No. 7 GDPR) for data processing on this website.",
+        },
+        {
+          heading: "2. General",
+          body: "This website is a project and preview page for Rose, an app currently in development. No contact or sign-up forms are currently offered on this site. There is no registration, login, or newsletter sign-up on this website.",
+        },
+        {
+          heading: "3. Hosting",
+          body: "This website is hosted by Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA. When you visit the site, Vercel automatically processes technical access data (server log files) transmitted by your browser, including IP address, date and time of the request, browser type and version, operating system, and the page requested.\n\nThis data is processed to technically deliver the website, ensure system security, and analyze errors (Art. 6(1)(f) GDPR — legitimate interest in secure, functional website operation). As Vercel Inc. is based in the USA (a third country under the GDPR), your data may be transferred to the USA. Vercel has committed to the EU Commission's Standard Contractual Clauses (SCCs) to ensure an adequate level of data protection.",
+        },
+        {
+          heading: "4. Cookies",
+          body: "This website currently does not use cookies or comparable storage technologies. No analytics tools (e.g. Google Analytics) or marketing/tracking pixels are used either. Should this change, we will update this privacy policy accordingly and, where required, obtain your consent in advance.",
+        },
+        {
+          heading: "5. External Links",
+          body: "This website may contain links to app stores (Apple App Store, Google Play Store). Clicking these links takes you away from our website; the respective operators of those external sites are solely responsible for data processing there.",
+        },
+        {
+          heading: "6. Your Rights",
+          body: "Under the GDPR, you have the right to access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20), and objection (Art. 21) regarding your personal data. Please contact us at the email address above. You also have the right to lodge a complaint with a data protection supervisory authority, e.g. the data protection authority of North Rhine-Westphalia, Germany.",
+        },
+        {
+          heading: "7. Changes to this Privacy Policy",
+          body: "As Rose is currently being built, this website's features — and therefore this privacy policy — may change. The version published on this page at any given time applies.",
+        },
+      ],
+    },
+  },
+  impressum: {
+    de: {
+      title: "Impressum",
+      intro: "Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG).",
+      sections: [
+        {
+          heading: "Anbieter",
+          body: "Gracia Lukelo\nGerresheimer Straße 182\n40233 Düsseldorf\nDeutschland",
+        },
+        {
+          heading: "Kontakt",
+          body: "E-Mail: lukeloresearch@gmail.com",
+        },
+        {
+          heading: "Hinweis zum Unternehmensstatus",
+          body: "Diese Website dient der Vorstellung von Rose, einem in Entwicklung befindlichen Projekt. Es handelt sich aktuell noch nicht um ein im Handelsregister eingetragenes Unternehmen oder ein kommerzielles Angebot; die Gewerbeanmeldung befindet sich in Vorbereitung. Verantwortlich als Diensteanbieterin ist derzeit die oben genannte Privatperson.",
+        },
+        {
+          heading: "Haftungsausschluss",
+          body: "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.\n\nDie Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/. Wir sind nicht verpflichtet und nicht bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+        },
+      ],
+    },
+    en: {
+      title: "Legal Notice",
+      intro: "Information pursuant to Sec. 5 German Digital Services Act (DDG).",
+      sections: [
+        {
+          heading: "Provider",
+          body: "Gracia Lukelo\nGerresheimer Straße 182\n40233 Düsseldorf\nGermany",
+        },
+        {
+          heading: "Contact",
+          body: "Email: lukeloresearch@gmail.com",
+        },
+        {
+          heading: "Note on Business Status",
+          body: "This website presents Rose, a project currently in development. It is not yet operated as a company entered in the commercial register, nor as a commercial offering; business registration is in preparation. The private individual named above is currently responsible as the service provider.",
+        },
+        {
+          heading: "Disclaimer",
+          body: "Despite careful review, we assume no liability for the content of external links. The operators of linked pages are solely responsible for their content.\n\nThe European Commission provides a platform for online dispute resolution (ODR): https://ec.europa.eu/consumers/odr/. We are not obligated and not willing to participate in dispute resolution proceedings before a consumer arbitration board.",
+        },
+      ],
+    },
   },
   terms: {
     title: "Terms of Service",
@@ -55,7 +150,12 @@ const socialLinks = [
 ];
 
 const LegalModal = ({ content, onClose }) => {
+  const [language, setLanguage] = useState("de");
+
   if (!content) return null;
+
+  const isBilingual = Boolean(content.de && content.en);
+  const activeContent = isBilingual ? content[language] : content;
 
   return (
     <div
@@ -79,21 +179,50 @@ const LegalModal = ({ content, onClose }) => {
           <X size={20} />
         </button>
 
+        {isBilingual && (
+          <div className="mb-4 inline-flex rounded-full border border-gray-200 p-1 text-sm">
+            <button
+              type="button"
+              onClick={() => setLanguage("de")}
+              className={`rounded-full px-3 py-1 transition-colors ${
+                language === "de"
+                  ? "bg-[#33302A] text-white"
+                  : "text-gray-500 hover:text-gray-900"
+              }`}
+            >
+              DE
+            </button>
+            <button
+              type="button"
+              onClick={() => setLanguage("en")}
+              className={`rounded-full px-3 py-1 transition-colors ${
+                language === "en"
+                  ? "bg-[#33302A] text-white"
+                  : "text-gray-500 hover:text-gray-900"
+              }`}
+            >
+              EN
+            </button>
+          </div>
+        )}
+
         <h2
           id="legal-modal-title"
           className="pr-10 text-3xl md:text-4xl font-serif text-gray-900"
         >
-          {content.title}
+          {activeContent.title}
         </h2>
-        <p className="mt-4 text-gray-600 leading-relaxed">{content.intro}</p>
+        <p className="mt-4 text-gray-600 leading-relaxed">
+          {activeContent.intro}
+        </p>
 
         <div className="mt-8 space-y-6">
-          {content.sections.map((section) => (
+          {activeContent.sections.map((section) => (
             <section key={section.heading}>
               <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-900">
                 {section.heading}
               </h3>
-              <p className="mt-2 text-sm leading-relaxed text-gray-600">
+              <p className="mt-2 whitespace-pre-line text-sm leading-relaxed text-gray-600">
                 {section.body}
               </p>
             </section>
@@ -109,9 +238,6 @@ const Footer = () => {
   const [isSocialOpen, setIsSocialOpen] = useState(false);
   const modalContent = activeLegal ? legalContent[activeLegal] : null;
   const currentYear = new Date().getFullYear();
-  const openCookieSettings = () => {
-    window.dispatchEvent(new Event("rose:open-cookie-settings"));
-  };
 
   return (
     <>
@@ -136,17 +262,17 @@ const Footer = () => {
               </button>
               <button
                 type="button"
+                onClick={() => setActiveLegal("impressum")}
+                className="uppercase tracking-wide hover:text-gray-900 transition-colors"
+              >
+                IMPRESSUM
+              </button>
+              <button
+                type="button"
                 onClick={() => setActiveLegal("terms")}
                 className="uppercase tracking-wide hover:text-gray-900 transition-colors"
               >
                 TERMS OF SERVICE
-              </button>
-              <button
-                type="button"
-                onClick={openCookieSettings}
-                className="uppercase tracking-wide hover:text-gray-900 transition-colors"
-              >
-                COOKIE SETTINGS
               </button>
               <div className="flex basis-full flex-col items-center gap-3 md:basis-auto">
                 <button

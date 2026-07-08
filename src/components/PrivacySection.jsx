@@ -100,22 +100,18 @@ const PrivacySection = () => {
 
         <div className="text-center mt-12">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-            <a
-            href="https://app.galenai.com/"
-            target="_blank"
-            rel="noopener noreferrer"
+            <button
+              type="button"
               className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#C0705E] hover:bg-[#b15f4d] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#C0705E]/40"
             >
               Download for iOS
-            </a>
-            <a
-              href="https://app.galenai.com/"
-              target="_blank"
-              rel="noopener noreferrer"
+            </button>
+            <button
+              type="button"
               className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#33302A] hover:bg-[#4A443B] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#33302A]/25"
             >
               Download for Android
-            </a>
+            </button>
           </div>
         </div>
       </div>
