@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Instagram } from "lucide-react";
 import roseLogo from "../../bilder/logo_black_web.png";
 import { supabase } from "../lib/supabaseClient";
 
@@ -93,6 +94,16 @@ const ComingSoonPage = () => {
             )}
           </>
         )}
+
+        <a
+          href="https://www.instagram.com/rose___bible/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mx-auto mt-12 inline-flex items-center justify-center gap-2.5 rounded-full border border-gray-200 bg-card px-6 py-3 text-sm font-medium text-gray-600 transition-all duration-300 hover:border-rose hover:text-[#C0705E] hover:shadow-lg hover:shadow-[#C0705E]/20"
+        >
+          <Instagram className="h-5 w-5" />
+          Follow us on Instagram
+        </a>
       </main>
 
       <footer className="relative z-10 flex flex-col items-center gap-3 px-6 pb-10 text-sm text-gray-500">
