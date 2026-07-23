@@ -82,7 +82,7 @@ export const StoreModalProvider = ({ children }) => {
 
             <h2
               id="store-modal-title"
-              className="pr-10 text-2xl font-serif text-gray-900"
+              className="pr-10 text-2xl font-display text-gray-900"
             >
               Try Rose Beta
             </h2>

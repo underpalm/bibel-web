@@ -30,6 +30,15 @@ section[id] {
   letter-spacing: -0.02em;
 }
 
+/* Large display headings — Inter Bold */
+.font-display {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
 .cardo-regular {
   font-family: "Newsreader", serif;
   font-weight: 400;

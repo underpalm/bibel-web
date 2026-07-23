@@ -58,7 +58,7 @@ const RoseInsightPreview = ({ demo }) => {
         aria-hidden="true"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-gray-950/10 via-gray-950/25 to-gray-950/85" />
-      <div className="absolute inset-0 bg-[#C0705E]/10 mix-blend-multiply" />
+      <div className="absolute inset-0 bg-[#722F37]/10 mix-blend-multiply" />
 
       <div className="relative z-10 flex min-h-[520px] flex-col p-5 sm:p-6">
         <div className="ml-auto mt-16 max-w-[255px] rounded-[18px] border border-white/25 bg-[#33302A]/70 px-4 py-3 text-sm leading-relaxed text-white shadow-lg backdrop-blur-md">
@@ -85,7 +85,7 @@ const RoseInsightPreview = ({ demo }) => {
           <p>{demo.question}</p>
         </div>
 
-        <div className="mt-4 rounded-[18px] bg-[#C0705E]/95 p-5 text-white shadow-xl backdrop-blur-sm">
+        <div className="mt-4 rounded-[18px] bg-[#722F37]/95 p-5 text-white shadow-xl backdrop-blur-sm">
           <p className="text-xs font-bold uppercase leading-none tracking-wide text-yellow-200">
             {demo.status}
           </p>
@@ -122,7 +122,7 @@ const HowItWorksSection = () => {
           <p className="text-sm font-medium text-[#33302A] tracking-wider uppercase mb-4">
             HOW ROSE WORKS
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-gray-900">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-display text-gray-900">
             Understanding the Bible isn't always easy.
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-base md:text-lg leading-relaxed text-gray-600">

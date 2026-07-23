@@ -143,10 +143,14 @@ const legalContent = {
 };
 
 const socialLinks = [
-  { name: "Instagram", href: "https://www.instagram.com/" },
-  { name: "LinkedIn", href: "https://www.linkedin.com/" },
-  { name: "TikTok", href: "https://www.tiktok.com/" },
-  { name: "YouTube", href: "https://www.youtube.com/" },
+  { name: "Instagram", href: "https://www.instagram.com/rose___bible/" },
+  { name: "X", href: "https://x.com/rose___bible" },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/company/rosebible/",
+  },
+  { name: "TikTok", href: "https://www.tiktok.com/@rose___bible" },
+  { name: "YouTube", href: "https://www.youtube.com/@rose___bible" },
 ];
 
 const LegalModal = ({ content, onClose }) => {
@@ -208,7 +212,7 @@ const LegalModal = ({ content, onClose }) => {
 
         <h2
           id="legal-modal-title"
-          className="pr-10 text-3xl md:text-4xl font-serif text-gray-900"
+          className="pr-10 text-3xl md:text-4xl font-display text-gray-900"
         >
           {activeContent.title}
         </h2>

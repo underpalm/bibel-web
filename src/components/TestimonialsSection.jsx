@@ -50,7 +50,7 @@ const TestimonialsSection = () => {
           <p className="text-sm font-medium text-[#33302A] tracking-wider uppercase mb-4">
             OUR COMMUNITY
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-gray-900">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-display text-gray-900">
             What people say about Rose
           </h2>
         </div>

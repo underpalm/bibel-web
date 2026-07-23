@@ -7,7 +7,7 @@ const PrivacyIcon = ({ type }) => {
   if (type === "private") {
     return (
       <div className="w-8 h-8 flex items-center justify-center">
-        <Heart className="w-6 h-6 text-[#C0705E]" />
+        <Heart className="w-6 h-6 text-[#722F37]" />
       </div>
     );
   }
@@ -29,10 +29,10 @@ const PrivacySection = () => {
   return (
     <section id="about" className="py-20 md:py-32 bg-white">
       <div className="max-w-[1200px] mx-auto px-6 md:px-10">
-        <div className="bg-gradient-to-br from-[#C0705E]/5 to-white rounded-3xl p-8 md:p-12 mb-8">
+        <div className="bg-gradient-to-br from-[#722F37]/5 to-white rounded-3xl p-8 md:p-12 mb-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="text-left">
-              <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-6">
+              <h2 className="text-3xl md:text-4xl font-display text-gray-900 mb-6">
                 Rose helps you understand the Bible through conversation.
               </h2>
               <div className="space-y-5 text-left text-gray-600 leading-relaxed">
@@ -40,7 +40,7 @@ const PrivacySection = () => {
                   Not by talking to the past. Not by speaking with Jesus. But
                   by making the Bible accessible – for everyone.
                 </p>
-                <p className="font-serif text-2xl text-gray-900">
+                <p className="font-display text-2xl text-gray-900">
                   Why we built Rose
                 </p>
                 <p>
@@ -58,7 +58,7 @@ const PrivacySection = () => {
                   understanding for every human being, regardless of who they
                   are.
                 </p>
-                <p className="font-serif text-2xl text-gray-900">
+                <p className="font-display text-2xl text-gray-900">
                   A new way to explore the Bible.
                 </p>
               </div>
@@ -79,7 +79,7 @@ const PrivacySection = () => {
               key={feature.id}
               className={`p-6 rounded-2xl ${
                 index === 0
-                  ? "bg-[#C0705E]/5"
+                  ? "bg-[#722F37]/5"
                   : index === 1
                     ? "bg-amber-50"
                     : "bg-[#33302A]/5"
@@ -102,7 +102,7 @@ const PrivacySection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <button
               type="button"
-              className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#C0705E] hover:bg-[#b15f4d] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#C0705E]/40"
+              className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#722F37] hover:bg-[#5C252C] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#722F37]/40"
             >
               Download for iOS
             </button>

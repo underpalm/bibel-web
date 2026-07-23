@@ -12,7 +12,7 @@ const FAQSection = () => {
     <section id="contact" className="py-20 md:py-32 bg-[#FFFDF9]">
       <div className="max-w-[800px] mx-auto px-6 md:px-10">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-serif text-gray-900">
+          <h2 className="text-3xl md:text-4xl font-display text-gray-900">
             Frequently asked questions about Rose
           </h2>
         </div>

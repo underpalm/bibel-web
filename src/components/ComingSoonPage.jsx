@@ -44,7 +44,7 @@ const ComingSoonPage = () => {
           className="h-12 w-12 object-contain"
         />
 
-        <h1 className="mt-14 text-4xl md:text-5xl font-serif text-gray-900 leading-tight">
+        <h1 className="mt-14 text-4xl md:text-5xl font-display text-gray-900 leading-tight">
           Opening soon
         </h1>
 
@@ -82,7 +82,7 @@ const ComingSoonPage = () => {
               <button
                 type="submit"
                 disabled={status === "loading"}
-                className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#C0705E] px-8 py-4 font-medium text-white transition-all duration-300 hover:bg-[#b15f4d] hover:shadow-lg hover:shadow-[#C0705E]/40 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:shadow-none"
+                className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#722F37] px-8 py-4 font-medium text-white transition-all duration-300 hover:bg-[#5C252C] hover:shadow-lg hover:shadow-[#722F37]/40 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:shadow-none"
               >
                 {status === "loading" ? "Signing up…" : "Sign up"}
               </button>
@@ -99,7 +99,7 @@ const ComingSoonPage = () => {
           href="https://www.instagram.com/rose___bible/"
           target="_blank"
           rel="noopener noreferrer"
-          className="mx-auto mt-12 inline-flex items-center justify-center gap-2.5 rounded-full border border-gray-200 bg-card px-6 py-3 text-sm font-medium text-gray-600 transition-all duration-300 hover:border-rose hover:text-[#C0705E] hover:shadow-lg hover:shadow-[#C0705E]/20"
+          className="mx-auto mt-12 inline-flex items-center justify-center gap-2.5 rounded-full border border-gray-200 bg-card px-6 py-3 text-sm font-medium text-gray-600 transition-all duration-300 hover:border-rose hover:text-[#722F37] hover:shadow-lg hover:shadow-[#722F37]/20"
         >
           <Instagram className="h-5 w-5" />
           Follow us on Instagram

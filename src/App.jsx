@@ -7,6 +7,7 @@ import HowGalenHelpsSection from "./components/HowGalenHelpsSection";
 import PrivacySection from "./components/PrivacySection";
 import TestimonialsSection from "./components/TestimonialsSection";
 import FAQSection from "./components/FAQSection";
+import NewsletterSection from "./components/NewsletterSection";
 import Footer from "./components/Footer";
 import ComingSoonPage from "./components/ComingSoonPage";
 import { StoreModalProvider } from "./components/StoreModal";
@@ -27,6 +28,7 @@ function App() {
           <PrivacySection />
           <TestimonialsSection />
           <FAQSection />
+          <NewsletterSection />
         </main>
         <Footer />
       </StoreModalProvider>

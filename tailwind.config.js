@@ -11,9 +11,9 @@ export default {
         parchment: "#F7F2EA",
         ink: "#33302A",
         rose: {
-          DEFAULT: "#C0705E",
-          soft: "#D79E90",
-          tint: "#F0E0D9",
+          DEFAULT: "#722F37",
+          soft: "#A86169",
+          tint: "#EFDEE0",
         },
         muted: "#8C8475",
         card: "#FFFDF9",

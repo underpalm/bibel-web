@@ -6,16 +6,17 @@ import safeFaithfulImage from "../../bilder/rose-safe-faithful.png";
 import saveHoursImage from "../../bilder/rose-save-hours.png";
 import { howGalenHelps } from "../data/mockData";
 
-const helpImages = {
-  1: noReadingImage,
-  2: instantContextImage,
-  3: safeFaithfulImage,
-  4: saveHoursImage,
-};
+const helpImageCycle = [
+  noReadingImage,
+  instantContextImage,
+  safeFaithfulImage,
+  saveHoursImage,
+];
 
 const HelpScreenPreview = ({ item }) => {
   const screen = item.screen;
-  const backgroundImage = helpImages[item.id];
+  const backgroundImage =
+    helpImageCycle[(item.id - 1) % helpImageCycle.length];
   const waveBars = [26, 42, 34, 56, 72, 44, 30, 58, 36, 24, 40, 32, 54, 46, 60, 38];
 
   return (
@@ -100,10 +101,10 @@ const HowGalenHelpsSection = () => {
     <section id="how-galen-helps" className="py-20 md:py-32 bg-[#FFFDF9]">
       <div className="max-w-[1400px] mx-auto px-6 md:px-10">
         <div className="text-center mb-16">
-          <p className="text-sm font-medium text-[#C0705E] tracking-wider uppercase mb-4">
+          <p className="text-sm font-medium text-[#722F37] tracking-wider uppercase mb-4">
             HOW ROSE HELPS
           </p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif text-gray-900">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-display text-gray-900">
             Why talking to Rose is better than just reading.
           </h2>
         </div>

@@ -19,58 +19,100 @@ export const partners = [
 export const howGalenHelps = [
   {
     id: 1,
-    title: "No reading required",
+    title: "The Bible is genuinely hard to understand",
     description:
-      "Full voice interface. Ask Rose with your voice, listen to Rose's answer. Perfect for blind people, elderly people, and anyone who struggles with reading.",
+      "Even the apostle Peter admitted Scripture contains “things hard to understand” (2 Peter 3:16). The difficulty isn't a modern excuse – it's built into the text itself.",
     screen: {
-      question: "Rose, what does John 1:5 mean for me today?",
+      question: "Rose, what does Peter mean by 'things hard to understand'?",
       answer:
-        "This verse says darkness is real, but it never has the final word. God's light is stronger than confusion, fear, and sin.",
-      reference: "John 1:5",
-      verse: "The light shines in the darkness.",
-      details: ["Historical meaning", "Simple explanation", "Today"],
+        "Even the first Christians found parts of Scripture tough. I break a hard passage into plain steps so it finally makes sense.",
+      reference: "2 Peter 3:16",
+      verse: "...some things in them that are hard to understand.",
+      details: ["Plain meaning", "Step by step", "In context"],
     },
   },
   {
     id: 2,
-    title: "Instant context",
+    title: "Cultural distance",
     description:
-      "In a normal book, you would flip pages for hours. Rose gives you historical context, original language notes, and related verses in seconds.",
+      "The Bible was written into ancient cultures whose customs – like a “veil because of the angels” – assume knowledge today's readers simply don't have. Without that context, verses are easily misread.",
     screen: {
-      question: "Rose, does God still hear me when I doubt?",
+      question: "Rose, why a veil 'because of the angels'?",
       answer:
-        "Doubt does not push God away. Scripture shows God meeting people in fear, confusion, and honest questions.",
-      reference: "Psalm 34:18",
-      verse: "The Lord is near to the brokenhearted.",
-      details: ["Honest questions", "Comfort verses", "Peace"],
+        "That phrase points to first-century customs of honor and worship. Let me explain the ancient background so the verse makes sense.",
+      reference: "1 Corinthians 11:10",
+      verse: "...a symbol of authority on her head, because of the angels.",
+      details: ["Ancient customs", "Historical context", "What it meant"],
     },
   },
   {
     id: 3,
-    title: "Safe & faithful",
+    title: "Language barriers",
     description:
-      'Rose stays within mainstream Christian theology (configurable). No hallucinations, no strange doctrines. You can even ask Rose: "On which points do different denominations disagree?"',
+      "Of 7,396 living languages, only about 10% have a full Bible translation, and 1.5 billion people have none in their own tongue. Even where one exists, millions read in a colonial language they never truly mastered.",
     screen: {
-      question: "Rose, I don't know what to pray tonight.",
+      question: "Rose, can we talk about this in my own language?",
       answer:
-        "Start with honesty. Tell God what feels heavy, ask for wisdom, and rest in the promise that He listens before you find perfect words.",
-      reference: "Romans 8:26",
-      verse: "The Spirit helps us in our weakness.",
-      details: ["Start with honesty", "Ask for wisdom", "Rest"],
+        "Yes. I speak with you in your heart language by voice – no printed translation required.",
+      reference: "Acts 2:6",
+      verse: "...each one heard them speaking in his own language.",
+      details: ["Your language", "By voice", "No text needed"],
     },
   },
   {
     id: 4,
-    title: "Save thousands of hours",
+    title: "Illiteracy & oral learners",
     description:
-      "Pastors report cutting sermon prep time by 70% with Rose. Bible study groups finish a book in one evening instead of three months.",
+      "739 million adults can't read, and roughly 70% of the world learns primarily by listening, not reading. For these billions, a text-based Bible app is practically worthless.",
     screen: {
-      question: "Rose, give me a 2 minute Bible moment.",
+      question: "Rose, read and explain this for me – I can't read well.",
       answer:
-        "Read one verse, ask one honest question, and carry one simple truth into your day.",
+        "No problem. Just listen and ask. Everything works by voice, so reading is never required.",
+      reference: "Romans 10:17",
+      verse: "Faith comes from hearing.",
+      details: ["Listen", "Ask aloud", "No reading"],
+    },
+  },
+  {
+    id: 5,
+    title: "No time & cognitive overload",
+    description:
+      "“Not enough time” is the #1 barrier to Bible reading, and 42% of Americans never open it at all. With 66 books and tangled theology, most people give up after a few chapters.",
+    screen: {
+      question: "Rose, I only have two minutes today.",
+      answer:
+        "That's enough. Here's one verse and one truth to carry with you – no long study needed.",
       reference: "Psalm 119:105",
       verse: "Your word is a lamp to my feet.",
-      details: ["2 min reflection", "One question", "Daily reminder"],
+      details: ["2 min", "One truth", "On the go"],
+    },
+  },
+  {
+    id: 6,
+    title: "No guidance or context",
+    description:
+      "57% of Protestants say they can't understand the Bible on their own. It was never meant to be read alone – yet few readers today have a pastor or mentor to explain the context.",
+    screen: {
+      question: "Rose, I have no one to explain this to me.",
+      answer:
+        "I'll walk with you like a mentor – anytime, any verse, with the context you'd get from a teacher.",
+      reference: "Acts 8:31",
+      verse: "How can I, unless someone guides me?",
+      details: ["Always here", "Explains context", "Like a mentor"],
+    },
+  },
+  {
+    id: 7,
+    title: "Secular worldview vs. biblical thinking",
+    description:
+      "45% of Americans believe there are many ways to heaven, and modern culture quietly reshapes how people read Scripture. Without someone to bridge that gap, the text gets misunderstood or dismissed.",
+    screen: {
+      question: "Rose, why does this feel so different from how I think?",
+      answer:
+        "Modern culture shapes our assumptions. Let me bridge the gap and show the historical and biblical view side by side.",
+      reference: "Romans 12:2",
+      verse: "Do not be conformed to this world.",
+      details: ["Bridge the gap", "Historical view", "Honest answers"],
     },
   },
 ];

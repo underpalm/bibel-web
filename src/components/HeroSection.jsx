@@ -26,7 +26,7 @@ const HeroSection = () => {
       />
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center mt-12 md:mt-16">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif text-gray-900 leading-tight mb-5">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-display text-gray-900 leading-tight mb-5">
           Meet Rose.
         </h1>
 
@@ -38,7 +38,7 @@ const HeroSection = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
           <button
             type="button"
-            className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#C0705E] hover:bg-[#b15f4d] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#C0705E]/40"
+            className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#722F37] hover:bg-[#5C252C] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#722F37]/40"
           >
             Download for iOS
           </button>
@@ -64,7 +64,7 @@ const HeroSection = () => {
             alt="Family walking through a mountain meadow"
             className="absolute inset-0 h-full w-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-[#33302A]/35 via-[#33302A]/5 to-[#C0705E]/10" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#33302A]/35 via-[#33302A]/5 to-[#722F37]/10" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#33302A]/35 via-transparent to-transparent" />
         </div>
 
