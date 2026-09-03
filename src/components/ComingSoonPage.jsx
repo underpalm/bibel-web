@@ -96,7 +96,7 @@ const ComingSoonPage = () => {
         )}
 
         <a
-          href="https://www.instagram.com/rose___bible/"
+          href="https://www.instagram.com/roseandbible/"
           target="_blank"
           rel="noopener noreferrer"
           className="mx-auto mt-12 inline-flex items-center justify-center gap-2.5 rounded-full border border-gray-200 bg-card px-6 py-3 text-sm font-medium text-gray-600 transition-all duration-300 hover:border-rose hover:text-[#722F37] hover:shadow-lg hover:shadow-[#722F37]/20"

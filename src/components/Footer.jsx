@@ -143,7 +143,7 @@ const legalContent = {
 };
 
 const socialLinks = [
-  { name: "Instagram", href: "https://www.instagram.com/rose___bible/" },
+  { name: "Instagram", href: "https://www.instagram.com/roseandbible/" },
   { name: "X", href: "https://x.com/rose___bible" },
   {
     name: "LinkedIn",
