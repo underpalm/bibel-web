@@ -87,6 +87,11 @@ const ComingSoonPage = () => {
                 {status === "loading" ? "Signing up…" : "Sign up"}
               </button>
             </form>
+            <p className="mt-3 max-w-xl text-xs leading-5 text-gray-600">
+              By signing up, you agree to receive Rose &amp; Bible news and launch updates by email.
+              You can withdraw your consent at any time by emailing luca.eppel@rose-bible.com.{' '}
+              <a href="/datenschutz?lang=en" className="underline underline-offset-4">Privacy policy</a>
+            </p>
             {status === "error" && (
               <p className="mt-4 text-sm text-red-600">
                 Something went wrong. Please try again in a moment.
@@ -112,6 +117,8 @@ const ComingSoonPage = () => {
           <span className="font-serif font-semibold text-gray-900">Rose</span>
         </p>
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+          <a href="/impressum" className="underline underline-offset-4">Impressum / Legal notice</a>
+          <a href="/datenschutz" className="underline underline-offset-4">Datenschutz / Privacy</a>
           <span
             aria-disabled="true"
             className="cursor-not-allowed select-none text-gray-300 underline underline-offset-4"
