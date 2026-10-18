@@ -120,23 +120,23 @@ export const howGalenHelps = [
 export const privacyFeatures = [
   {
     id: 1,
-    title: "Always Private",
+    title: "Your privacy choices",
     description:
-      "We never share your data. Every question you ask stays between you and Rose. No tracking. No selling. No third parties.",
+      "Online AI features use external AI providers with your consent. Read our privacy information before choosing to use them.",
     icon: "private",
   },
   {
     id: 2,
-    title: "Encrypted",
+    title: "Clear privacy information",
     description:
-      "Your conversations are encrypted – in transit and at rest. Only you can access what you share.",
+      "Our privacy information explains how data is handled and which service providers are involved.",
     icon: "encrypted",
   },
   {
     id: 3,
     title: "Built for trust",
     description:
-      "We don't need to know who you are. We only need to help you grow in your faith.",
+      "An account is required to use Rose. You can manage your privacy choices and request account deletion.",
     icon: "trust",
   },
 ];
@@ -203,7 +203,7 @@ export const faqs = [
     id: 3,
     question: "Is Rose just ChatGPT with a Bible sticker?",
     answer:
-      "No. Rose is fine-tuned specifically on the Bible, commentaries, and historical context. We intentionally limit hallucinations. You can ask Rose for exact verses and get them.",
+      "Rose helps you explore Bible passages and their context through AI conversation. AI can make mistakes, so check important answers against the referenced verses.",
   },
   {
     id: 4,
@@ -215,7 +215,7 @@ export const faqs = [
     id: 5,
     question: "Is Rose really free?",
     answer:
-      "There is a free tier each month. Unlimited access to Rose is available with a paid plan. For churches or communities, we also offer group plans.",
+      "A free account includes daily chat and call allowances. Paid plans offer higher allowances; available plans and limits are shown in the app.",
   },
 ];
 

@@ -2,12 +2,10 @@ import React, { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import roseLogo from "../../bilder/logo_black_web.png";
 import { navLinks } from "../data/mockData";
-import { useStoreModal } from "./StoreModal";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const { openStoreModal } = useStoreModal();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,10 +16,6 @@ const Header = () => {
   }, []);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
-  const handleTryNow = () => {
-    setIsMenuOpen(false);
-    openStoreModal();
-  };
 
   return (
     <header
@@ -52,13 +46,12 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-4">
-            <button
-              type="button"
-              onClick={handleTryNow}
+            <a
+              href="https://rose-web-383519931449.europe-west3.run.app"
               className="inline-flex items-center justify-center rounded-full bg-[#722F37] px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-[#5C252C] hover:shadow-lg hover:shadow-[#722F37]/40"
             >
               Try Now (Beta)
-            </button>
+            </a>
 
             <button
               type="button"

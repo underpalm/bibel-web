@@ -119,20 +119,18 @@ const Footer = () => {
             </a>
 
             <nav className="flex flex-wrap items-center justify-center gap-6 text-sm text-gray-500">
-              <button
-                type="button"
-                onClick={() => setActiveLegal("privacy")}
+              <a
+                href="/datenschutz"
                 className="uppercase tracking-wide hover:text-gray-900 transition-colors"
               >
                 PRIVACY POLICY
-              </button>
-              <button
-                type="button"
-                onClick={() => setActiveLegal("impressum")}
+              </a>
+              <a
+                href="/impressum"
                 className="uppercase tracking-wide hover:text-gray-900 transition-colors"
               >
                 IMPRESSUM
-              </button>
+              </a>
               <button
                 type="button"
                 onClick={() => setActiveLegal("terms")}
