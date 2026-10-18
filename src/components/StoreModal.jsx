@@ -13,7 +13,7 @@ const storeOptions = [
     id: "ios",
     label: "iOS",
     description: "App Store",
-    href: "https://apps.apple.com/",
+    href: "https://apps.apple.com/app/id6778565221",
   },
   {
     id: "android",

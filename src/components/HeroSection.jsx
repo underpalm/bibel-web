@@ -36,12 +36,14 @@ const HeroSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-          <button
-            type="button"
+          <a
+            href="https://apps.apple.com/app/id6778565221"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#722F37] hover:bg-[#5C252C] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#722F37]/40"
           >
             Download for iOS
-          </button>
+          </a>
           <button
             type="button"
             className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#33302A] hover:bg-[#4A443B] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#33302A]/25"
