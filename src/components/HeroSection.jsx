@@ -44,17 +44,12 @@ const HeroSection = () => {
           >
             Download for iOS
           </a>
-          <button
-            type="button"
-            className="inline-flex min-w-[190px] items-center justify-center px-8 py-4 bg-[#33302A] hover:bg-[#4A443B] text-white font-medium rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#33302A]/25"
-          >
-            Download for Android
-          </button>
+          <p className="text-sm text-gray-500">Android coming soon</p>
         </div>
 
         <div className="mt-8 md:mt-10">
           <p className="text-sm text-gray-400">
-            Start talking to Rose for free on iPhone, or Android
+            Start talking to Rose for free on iPhone.
           </p>
         </div>
       </div>

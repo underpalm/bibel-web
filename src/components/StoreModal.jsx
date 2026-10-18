@@ -15,12 +15,6 @@ const storeOptions = [
     description: "App Store",
     href: "https://apps.apple.com/app/id6778565221",
   },
-  {
-    id: "android",
-    label: "Android",
-    description: "Google Play",
-    href: "https://play.google.com/store/apps",
-  },
 ];
 
 const StoreModalContext = createContext({
@@ -113,6 +107,9 @@ export const StoreModalProvider = ({ children }) => {
                 </a>
               ))}
             </div>
+            <p className="mt-4 text-center text-sm text-gray-500">
+              Android coming soon
+            </p>
           </div>
         </div>
       )}
